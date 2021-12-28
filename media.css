@@ -430,4 +430,10 @@
     .skills-wrapper .sk .back-box{
         width: 250px;
     }
+
+    .projects-cont .projects .project1, .project2 {
+        height: 350px;
+        width: 255px;
+        margin-bottom: 30px;
+    }
 }
