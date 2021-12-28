@@ -1,0 +1,357 @@
+@media (max-width:864px) {
+    .logo-section {
+        justify-content: flex-start;
+    }
+
+    header {
+        display: block;
+
+    }
+
+    header #check-btn {
+        display: block;
+    }
+
+    .logo-section {
+        display: none;
+    }
+
+    .navigation {
+        width: 100%;
+        height: auto;
+        left: -150%;
+        display: none;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+    }
+
+    .navigation ul li {
+        margin: 20px;
+    }
+
+    .banner-section .left-box .admin-img {
+        width: 83%;
+        height: 61%;
+    }
+
+    .admin-img img {
+        width: 230px;
+        height: 230px;
+    }
+
+    /* know me */
+    .know-me-cont .know-text h2{
+        padding-left: 67px;
+    }
+    .know-text-content-div .right-pic img {
+        height: 90%;
+    }
+
+    /* what i do */
+    .what-i-do-text-cont h2 {
+        padding-left: 15px;
+        margin-bottom: 39px;
+    }
+
+    .my-work-section .work-holder .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* projects */
+    .projects-cont{
+        padding: 0px;
+        margin-bottom: 69px;
+    }
+    .project-text {
+        padding-left: 0px;
+        padding-bottom: 16px;
+    }
+
+    .projects-cont .projects {
+        width: 100%;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+    .project1, .project2 {
+        width: 32%;
+        height: 82%;
+        padding: 20px;
+    }
+
+    /* skills */
+    .skills-wrapper .skill-text{
+        padding-left: 3px;
+    }
+    .skills-wrapper{
+        margin-bottom: 61px;
+        /* background-color: chocolate; */
+    }
+    .skills-wrapper .skill-cont1,.skills-wrapper .skill-cont2, .skills-wrapper .skill-cont3{
+        height: 120px;
+        display: block;
+    }
+    .skills-wrapper  .sk{
+        width: 100%;
+        height: 50px;
+        margin: 20px;
+        /* border: 2px solid; */
+    }
+    
+
+    /* eduaction section */
+    .edu-cont .timeline{
+        /* background-color: red; */
+        margin: 0 auto 90px auto;
+    }
+    
+    .education {
+        padding-left: 7px;
+        margin-bottom: 33px;
+    }
+
+   /* contact */
+    .contact-area .contact-me{
+        padding-left: 1px;
+    }
+    .contact-area .left-cont .left-social {
+        height: 320px;
+    }
+
+    /* footer */
+    .footer .animated-txt h2{
+        font-size: 3rem;
+    }
+     .footer .fa-arrow-up{
+        font-size: 2rem;
+        width: 34px;
+        height: 34px;
+        border-radius: 28px;
+    }
+}
+
+
+
+/* media querry for 768px tablet view */
+@media (max-width:769px)
+{
+
+    html{
+        font-size: 9px;
+    }
+    header .navigation nav ul li a{
+        font-size: 2.2rem;
+        
+    }
+    .banner-section .right-box .content p{
+        text-align: justify;
+    }
+   
+   .banner-section .right-box .buttons button{
+       height: 38px;
+       width: 138px;
+       margin-bottom: 13px;
+   }
+
+   /* know me section */
+   .know-me-cont .know-text h2{
+    padding-left: 0px;
+    margin-bottom: 40px;
+   }
+   .know-me-cont .know-text-content-div{
+       flex-direction: column-reverse;
+   }
+   .know-me-cont .know-text-content-div .know-content{
+       width: 100%;
+   }
+   .know-me-cont .know-text-content-div .know-content p{
+       font-size: 2rem;
+   }
+  
+   /* projects section */
+   .projects-cont .project-text{
+       padding-bottom: 33px;
+   }
+   .projects-cont .projects .project1,.project2{
+    height: 100%;
+    }
+   .projects-cont .projects .project-about p{
+       text-align: justify;
+   }
+
+   /* contact */
+   .contact-area .left-cont .contact-form #message{
+       width: 263px;
+   }
+
+    /* footer */
+    .footer .social-media i{
+        font-size: 2rem;
+    }
+    .footer .animated-txt h2{
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+}
+
+
+@media (max-width:671px){
+    html{
+        font-size: 8px;
+    }
+    .banner-section .left-box .admin-img {
+        width: 92%;
+        height: 55%;
+    }
+
+    .admin-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .my-work-section ,.work-holder .box .coding-bio p{
+        font-size: 1.7rem;
+    }
+
+  /* projects */
+    .projects-cont .projects {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .project-img1 img, .project-img2 img {
+        width: 30%;
+    }
+    .projects-cont .projects .project1,.project2{
+        width: 50%;
+    }
+    .projects-cont .projects .project1,.project2{
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .projects-cont .projects .project1 h2,.project2 h2{
+        font-size: 2.5rem;
+    }
+    .projects-cont .projects .project1  .project-about p,.project2 .project-about p{
+        font-size: 2rem;
+    }
+
+    /* contacts */
+    .contact-area{
+        height: auto;
+    }
+    .contact-area .left-cont {
+        flex-direction: column-reverse;
+        align-items: center;        
+       
+        margin-bottom: 100px;
+    }
+    .contact-area .left-cont .left-social{
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .contact-area .left-cont .contact-form{
+        width: 100%;
+    }
+    .contact-area .left-cont .left-social .location{
+        display: none;
+    }
+}
+
+
+@media (max-width:617px) {
+    html{
+        font-size: 8px;
+    }
+
+    /* education responsive  starts*/
+    /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+    /* education responsive  end*/
+
+
+    .wrapper{
+        padding: 0;
+    }
+    .wrapper .second-wrapper{
+        border-radius: 0;
+        width: 100%;
+    }
+
+    /* banner section */
+
+    .banner-section .right-box .content{
+        margin-bottom: 40px;
+    }
+
+    .banner-section .left-box .admin-img {
+        width: 41%;
+        height: 108%;
+    }
+
+    .admin-img img {
+        width: 200px;
+        height: 200px;
+    }
+    .banner-section .right-box h2{
+        font-size: 4rem;
+    }
+
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-section .left-box{
+        width: 100%;
+        text-align: center;
+        height: 200px;
+    }
+    .banner-section .right-box{
+              width: 100%;
+              text-align: center;
+    }
+    .banner-section .right-box .content{
+        width: 100%;
+        /* border: 2px solid white; */
+    }
+    .banner-section .right-box .content p{
+        font-size: 2.5rem;
+    }
+    .footer .fa-arrow-up{
+        font-size: 3rem;
+        border-radius: 10px;
+    }
+    
+}
