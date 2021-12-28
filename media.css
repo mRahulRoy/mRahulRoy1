@@ -355,3 +355,14 @@
     }
     
 }
+
+@media (max-width:492px){
+    .banner-section .left-box .admin-img {
+        width: 53%;
+        height: 109%;
+    }
+
+    .admin-img img {
+        width: 200px;
+        
+}
