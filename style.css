@@ -225,8 +225,8 @@ header #check-btn{
     font-family: 'Inter', sans-serif;
 }
 
-.right-box .buttons button:last-child {
-    border: 2px solid white;
+.right-box .buttons button:last-child a {
+    color: white ;
     transition: all 1s;
 }
 
@@ -240,7 +240,9 @@ header #check-btn{
 
 .right-box .buttons button:last-child:hover {
     background-color: white;
-    color: black;
+}
+.right-box .buttons button:last-child:hover a {
+   color: black;
 }
 
 /* know */
