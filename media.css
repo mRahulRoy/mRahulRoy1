@@ -437,3 +437,26 @@
         margin-bottom: 30px;
     }
 }
+
+@media (max-width:361px){
+    html{
+        font-size: 8px;
+    }
+    .know-text-content-div .right-pic img{
+        height: 83%;
+    }
+    .second-wrapper{
+        padding: 10px;
+    }
+    .banner-section .left-box .admin-img {
+        width: 64%;
+        height: 108%;
+    }
+
+    .admin-img img {
+        width: 200px;
+    }
+    .contact-area .left-cont .contact-form #message{
+        width: 223px;
+    }
+}
