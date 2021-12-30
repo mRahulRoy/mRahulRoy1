@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="media.css">
+    <script src="power.js"></script>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <!-- aos for animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -21,28 +22,28 @@
 
 <body>
     <div class="wrapper">
-        <div class="second-wrapper">
+        <div class="second-wrapper change-bg" id="second-main-cont" >
             <header>
                 <span id="for-moving-top"></span>
                 <input type="checkbox" name="" id="check">
-                <label id="check-btn" for="check"><i class="fas fa-bars"></i></label>
+                <label id="check-btn" for="check"><i class="black-color fas fa-bars"></i></label>
 
                 <div class="logo-section">
                     <div class="logo">
                         <img src="./images/letter_R.png" alt="">
                     </div>
-                    <h2>Rahul Roy</h2>
+                    <h2 class="admin-name">Rahul Roy</h2>
                 </div>
                 <div class="navigation">
                     <nav>
                         <ul>
-                            <li><a  href="#my-info">About Me</a></li>
-                            <li><a target="_blank" href="resume.html">Resume</a></li>
-                            <li><a target="_blank" href="https://mrahulroy.github.io/mRahulRoy/">Portfolio</a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/c/protechrahul">Youtube</a></li>
-                            <li><a  href="#reach-me">Contact</a></li>
-                            <li class="sun"><i class="far fa-sun" ></i></i></li>
-                            <li class="moon" style="display: none;"><i class="fas fa-moon"></i></li>
+                            <li><a class="link" href="#my-info">About Me</a></li>
+                            <li><a class="link" target="_blank" href="resume.html">Resume</a></li>
+                            <li><a class="link" target="_blank" href="https://mrahulroy.github.io/mRahulRoy/">Portfolio</a></li>
+                            <li><a class="link" target="_blank" href="https://www.youtube.com/c/protechrahul">Youtube</a></li>
+                            <li><a  class="link" href="#reach-me">Contact</a></li>
+                            <li  id="sun" onclick="myFunction()"><img id="icon" src="./images/sun.png" alt=""></li>
+            
 
 
                         </ul>
@@ -58,7 +59,7 @@
                 </div>
                 <div class="right-box">
                     <p class="experty">Frontend Developer</p>
-                    <h2 class="name">Rahul Roy</h2>
+                    <h2 class="name admin-name">Rahul Roy</h2>
                     <div class="content">
                         <p>This is Rahul Kumar Roy a Computer Science Student studying Bachelor's of Computer
                             Application( BCA ) from the Dronacharya Government College, Gurugram Haryana. I loves to
@@ -75,11 +76,11 @@
             <!-- Know me section -->
             <div id="my-info" class="know-me-cont" ">
                 <div class=" know-text">
-                <h2><span>KNOW ME</span></h2>
+                <h2><span class="black-color">KNOW ME</span></h2>
             </div>
             <div class="know-text-content-div">
                 <div class="know-content" data-aos="fade-right">
-                    <p>This is <strong style="color: yellow;">Rahul Kumar Roy </strong>a Computer Science Student
+                    <p class="black-color">This is <strong style="color: yellow;">Rahul Kumar Roy </strong>a Computer Science Student
                         studying Bachelor's of Computer
                         Application ( BCA ) from the Dronacharya Government College , Gurugram Haryana . I loves to
                         interact with the technology revolving around . It always surprises me that how machines
@@ -109,7 +110,7 @@
         <!-- What i do section -->
         <div class="my-work-section">
             <div class="what-i-do-text-cont">
-                <h2><span>WHAT I <span style="color: red;">D</span>O</span></h2>
+                <h2 class="black-color"><span>WHAT I <span style="color: red;">D</span>O</span></h2>
             </div>
             <div class="work-holder">
 
@@ -119,7 +120,7 @@
                         <h2>Competitive Coding</h2>
                     </div>
                     <div class="coding-bio">
-                        <p>I have done Competitive coding on the very popular website like HackerRank. This is
+                        <p class="black-color">I have done Competitive coding on the very popular website like HackerRank. This is
                             something that boosts our confidence by each questions. I am not doing it on the regular
                             bases</p><br>
                         <p class="stars"><span>HackerRank : <i class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -132,8 +133,8 @@
                         <span><i class="fab fa-html5"></i></span>
                         <h2>Web Development</h2>
                     </div>
-                    <div class="coding-bio">
-                        <p>I am a newbie in Frontend Devlopment but am a passionate learner. It always inspires me
+                    <div class="coding-bio ">
+                        <p class="black-color">I am a newbie in Frontend Devlopment but am a passionate learner. It always inspires me
                             to do or make such cool projects like this Portfolio website. I have done a few small
                             projects on Web Development Using Html Css and the very popular JavaScript. I hope you
                             like this website.</p>
@@ -146,11 +147,11 @@
                         <h2>Data Structures & Algorithm</h2>
                     </div>
                     <div class="coding-bio">
-                        <p>Here comes my intereste Solving Problems. I am much interested in solving real life
+                        <p class="black-color">Here comes my intereste Solving Problems. I am much interested in solving real life
                             related questions. I am solving good Data Structures Questions using the very popular
                             web Platform LeetCode . I have already solved 100+ Problems On LeetCode and looking
                             forward to do alot more.</p>
-                        <p class="stars"><span>LeetCode : <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <p class="black-color stars"><span>LeetCode : <i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 &nbsp;</span></p>
                     </div>
                 </div>
@@ -160,13 +161,13 @@
                         <h2>Youtuber</h2>
                     </div>
                     <div class="coding-bio">
-                        <p>I am much interested in Teaching and Learning new things revolving around and apply my
+                        <p class="black-color">I am much interested in Teaching and Learning new things revolving around and apply my
                             knowledge to build something that can help others. I loves to share whatever knowledge i
                             have, it always makes me Happy. In order to do that I started YouTube Channel Knows as
                             Rahul Roy where I Uploads Programming Videos In easy Hindi language so that Any students
                             who is not able to understand or week in English can easily Learn from there.</p>
 
-                        <p class="yt">Youtube Channel :<a target="_blank" href="https://www.youtube.com/c/protechrahul">
+                        <p class="black-color" class="yt">Youtube Channel :<a target="_blank" href="https://www.youtube.com/c/protechrahul">
                                 Rahul
                                 Roy</a></p>
                     </div>
@@ -179,7 +180,7 @@
 
         <!-- projects section -->
         <div class="projects-cont">
-            <h2 class="project-text"><i class="fas fa-star"></i><span>PROJECTS</span></h2>
+            <h2 class="project-text black-color"><i class="fas fa-star"></i><span>PROJECTS</span></h2>
             <div class="projects">
                 <!-- project 1 -->
                 <div class="project1" data-aos="fade-right">
@@ -232,15 +233,15 @@
 
         <!-- start of skills -->
         <div class="skills-wrapper">
-            <h2 class="skill-text"><i class="fas fa-skull-crossbones"></i><span> SKILLS</span></h2>
+            <h2 class="skill-text black-color"><i class="fas fa-skull-crossbones"></i><span> SKILLS</span></h2>
 
             <div class="skill-cont1" data-aos="fade-right">
-                <div class="html sk">
-                    <h2>HTML</h2> &nbsp;
+                <div class="html sk ">
+                    <h2 class="black-color">HTML</h2> &nbsp;
                     <span class="back-box"><span class="bar1"></span></span>
                 </div>
                 <div class="css sk">
-                    <h2>Css</h2> &nbsp;
+                    <h2 class="black-color">Css</h2> &nbsp;
                     <span class="back-box"><span class="bar2"></span></span>
                 </div>
             </div>
@@ -248,11 +249,11 @@
 
             <div class="skill-cont2" data-aos="fade-left">
                 <div class="javascript sk">
-                    <h2>JavaScript</h2> &nbsp;
+                    <h2 class="black-color">JavaScript</h2> &nbsp;
                     <span class="back-box"><span class="bar3"></span></span>
                 </div>
                 <div class="cpp sk">
-                    <h2>CPP</h2> &nbsp;
+                    <h2 class="black-color">CPP</h2> &nbsp;
                     <span class="back-box"><span class="bar4"></span></span>
                 </div>
             </div>
@@ -261,11 +262,11 @@
 
             <div class="skill-cont3" data-aos="fade-right">
                 <div class="c sk">
-                    <h2>C</h2> &nbsp;
+                    <h2 class="black-color">C</h2> &nbsp;
                     <span class="back-box"><span class="bar5"></span></span>
                 </div>
                 <div class="git sk">
-                    <h2>Git</h2> &nbsp;
+                    <h2 class="black-color">Git</h2> &nbsp;
                     <span class="back-box"><span class="bar6"></span></span>
                 </div>
             </div>
@@ -278,8 +279,8 @@
 
         <!-- start of education timline -->
         <div class="edu-cont">
-            <h2 class="education"><i class="fas fa-user-graduate"></i> EDUCATION</h2>
-            <div class="timeline">
+            <h2 class="education black-color"><i class="fas fa-user-graduate"></i> EDUCATION</h2>
+            <div class="timeline ">
 
                 <div class="container left" data-aos="fade-right">
                     <div class="main-content">
@@ -309,31 +310,31 @@
 
         <!-- contact secion -->
         <div class="contact-area" id="reach-me">
-            <h2 class="contact-me"><i class="fas fa-id-badge"></i>CONTACT ME</h2>
+            <h2 class="contact-me black-color"><i class="fas fa-id-badge"></i>CONTACT ME</h2>
             <div class="left-cont">
                 <div class="left-social" data-aos="fade-right">
 
                     <div class="email">
                         <i class="fas fa-envelope"></i>
                         <div class="email-content com">
-                            <h2>Email</h2>
-                            <p>rahulroy177602@</p>
+                            <h2 class="black-color">Email</h2>
+                            <p class="black-color">rahulroy177602@</p>
                         </div>
                     </div>
 
                     <div class="twitter">
                         <i class="fab fa-twitter"></i>
                         <div class="twitter-content com">
-                            <h2>Twitter</h2>
-                            <p>@rahulroy177602</p>
+                            <h2 class="black-color">Twitter</h2>
+                            <p class="black-color">@rahulroy177602</p>
                         </div>
                     </div>
 
                     <div class="location">
                         <i class="fas fa-map-signs"></i>
                         <div class="location-content com">
-                            <h2>Location</h2>
-                            <p>Haryana, India</p>
+                            <h2 class="black-color">Location</h2>
+                            <p class="black-color">Haryana, India</p>
                         </div>
                     </div>
 

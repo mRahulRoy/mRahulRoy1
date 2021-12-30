@@ -11,10 +11,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 html {
     font-size: 10px;
     scroll-behavior: smooth;
+}
+body{
+    transition: .5s ease-in-out;
 }
 
 .wrapper {
@@ -118,17 +120,21 @@ header #check-btn{
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
-
     font-family: 'Roboto', sans-serif;
 }
-
-.navigation nav ul .sun,
-.navigation nav ul .moon {
-    font-size: 3rem;
-    -webkit-font-smoothing: antialiased;
+.navigation nav ul li a:hover{
     color: yellow;
 }
 
+.navigation nav ul li img{
+    width: 30px;
+    cursor: pointer;
+    color: red;
+}
+
+.navigation nav ul li img:hover{
+    color: red;
+}
 .navigation nav ul li {
     list-style: none;
 }
@@ -908,7 +914,7 @@ p {
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap;
     animation: 
-    typing 3.5s steps(40, end),
+    typing 4.5s steps(40, end) infinite,
     blink-caret .75s step-end infinite;
 }
 @keyframes typing {
