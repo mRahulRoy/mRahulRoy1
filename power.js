@@ -24,6 +24,9 @@ function myFunction() {
             adminName[i].style.color = "#3D405B";
         }
       
+        var yt_link = document.querySelectorAll(".yt-link");
+        yt_link[0].style.color= "blue";
+       
     }
     else {
         image.src = "./images/sun.png";

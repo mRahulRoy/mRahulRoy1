@@ -11,11 +11,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     transition: .5s ease-in-out;
 }
 
@@ -54,23 +56,27 @@ header {
     margin-bottom: 50px;
     position: relative;
 }
-#check{
-    position: absolute ;
+
+#check {
+    position: absolute;
     top: 60px;
     display: none;
 }
-#check:checked ~ .navigation{
+
+#check:checked~.navigation {
     left: 0%;
     display: block;
 }
-header #check-btn{
+
+header #check-btn {
     font-size: 3.4rem;
     top: 0px;
     left: 10px;
     position: relative;
-    color : white;
+    color: white;
     display: none;
 }
+
 .logo-section .logo {
     height: 50px;
     width: 50px;
@@ -122,19 +128,21 @@ header #check-btn{
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
 }
-.navigation nav ul li a:hover{
+
+.navigation nav ul li a:hover {
     color: yellow;
 }
 
-.navigation nav ul li img{
+.navigation nav ul li img {
     width: 30px;
     cursor: pointer;
     color: red;
 }
 
-.navigation nav ul li img:hover{
+.navigation nav ul li img:hover {
     color: red;
 }
+
 .navigation nav ul li {
     list-style: none;
 }
@@ -232,7 +240,7 @@ header #check-btn{
 }
 
 .right-box .buttons button:last-child a {
-    color: white ;
+    color: white;
     transition: all 1s;
 }
 
@@ -247,11 +255,12 @@ header #check-btn{
 .right-box .buttons button:last-child:hover {
     background-color: white;
 }
+
 .right-box .buttons button:last-child:hover a {
-   color: black;
+    color: black;
 }
 
-/* know */
+/* know me*/
 .know-me-cont {
     margin-bottom: 50px;
 }
@@ -323,7 +332,7 @@ header #check-btn{
     margin-bottom: 48px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    
+
 }
 
 .what-i-do-text-cont span {
@@ -356,7 +365,6 @@ header #check-btn{
 }
 
 .coding-bio .yt a {
-    text-decoration: none;
     color: gold;
 }
 
@@ -772,7 +780,7 @@ p {
 
 /* contact section */
 .contact-area {
-   margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .contact-me {
@@ -781,11 +789,13 @@ p {
     font-size: 3rem;
     padding-bottom: 70px;
     font-family: 'Roboto', sans-serif;
-    color:  white;
+    color: white;
 }
-.contact-me i{
+
+.contact-me i {
     padding-right: 10px;
 }
+
 .left-cont {
     max-width: 1000px;
     margin: 0 auto;
@@ -804,8 +814,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 10px 16px 20px black
-    ;
+    box-shadow: 10px 16px 20px black;
 }
 
 .email,
@@ -838,8 +847,7 @@ p {
 }
 
 .contact-form {
-    box-shadow: 10px 16px 20px black
-    ;
+    box-shadow: 10px 16px 20px black;
     padding: 10PX;
     width: 50%;
 
@@ -880,17 +888,20 @@ p {
     margin-left: 12px;
 
 }
-.send-btn i{
+
+.send-btn i {
     color: white;
     padding-left: 5px;
     font-size: 1.6rem;
 }
-.location-content{
+
+.location-content {
     margin-left: 19px;
 }
+
 /* FOOTER */
-.footer{
-    background-color: rgb(27,14,14);
+.footer {
+    background-color: rgb(27, 14, 14);
     padding: 30px;
     display: flex;
     height: 200px;
@@ -900,38 +911,57 @@ p {
     position: relative;
     border-radius: 12px;
 }
+
 .social-media i {
     color: white;
     margin: 12px;
     font-size: 2rem;
 }
-.footer .animated-txt h2{
+
+.footer .animated-txt h2 {
     font-size: 2rem;
     letter-spacing: 2px;
-    color:  rgba(255, 255, 255, 0.842);
-    font-family: 'heebo' ,sans-serif;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'heebo', sans-serif;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
     white-space: nowrap;
-    animation: 
-    typing 4.5s steps(40, end) infinite,
-    blink-caret .75s step-end infinite;
+    animation:
+        typing 4.5s steps(40, end) infinite,
+        blink-caret .75s step-end infinite;
 }
+
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
-.footer p{
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.footer p {
     font-size: 2rem;
     color: rgb(128, 128, 128);
 }
-.footer .fa-arrow-up{
+
+.footer .fa-arrow-up {
     position: absolute;
     bottom: 20px;
     width: 30px;
