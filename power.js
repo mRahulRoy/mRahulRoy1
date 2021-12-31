@@ -5,6 +5,7 @@ function myFunction() {
     if (image.src.match("./images/sun.png")) {
         image.src = "./images/moon.png";
         var wrapper = document.querySelectorAll(".change-bg");
+        wrapper[0].style.transition = "1s";
         wrapper[0].style.backgroundColor = "white";
        
        
