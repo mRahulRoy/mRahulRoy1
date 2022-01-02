@@ -21,10 +21,17 @@
 <!-- <i class="fas fa-arrow-up"></i> -->
 
 <body>
+    <div id="loader-cont">
+        <div class="main-loader">
+            <div class="inner-loader">
+
+            </div>
+        </div>
+    </div>
     <div class="wrapper" id="for-moving-top">
         <div class="second-wrapper change-bg" id="second-main-cont">
             <header>
-                
+
                 <input type="checkbox" name="" id="check">
                 <label id="check-btn" for="check"><i class="black-color fas fa-bars"></i></label>
 
@@ -82,7 +89,8 @@
             </div>
             <div class="know-text-content-div">
                 <div class="know-content" data-aos="fade-right">
-                    <p class="black-color">This is <strong class="admin-name" style="color: yellow;">Rahul Kumar Roy </strong>a Computer
+                    <p class="black-color">This is <strong class="admin-name" style="color: yellow;">Rahul Kumar Roy
+                        </strong>a Computer
                         Science Student
                         studying Bachelor's of Computer
                         Application ( BCA ) from the Dronacharya Government College , Gurugram Haryana . I loves to
@@ -386,7 +394,7 @@
     </div>
     </div>
 
-
+    
 
 
 
@@ -404,6 +412,12 @@
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+         let loader = document.getElementById("loader-cont");
+         let wrapper = document.getElementsByClassName("wrapper");
+         window.addEventListener("load" ,function(){
+             loader.style.display= "none";
+             wrapper[0].style.display="block";
+         })
         AOS.init({
             offset: 300,
             duration: 1000,
