@@ -1,3 +1,8 @@
+@media (max-width:864px){
+    .right-box .buttons button{
+        margin-bottom: 16px;
+    }
+}
 @media (max-width:864px) {
     .logo-section {
         justify-content: flex-start;
@@ -415,6 +420,12 @@
 @media (max-width:412px) {
     .wrapper {
         padding: 0
+    }
+    .wrapper .second-wrapper{
+        width: 100%;
+    }
+    .know-text-content-div .know-content{
+        width: 100%;
     }
     .banner-section .left-box .admin-img {
         width: 65%;

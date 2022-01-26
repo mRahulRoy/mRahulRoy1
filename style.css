@@ -215,6 +215,7 @@ header #check-btn {
     font-size: 2rem;
     color: rgb(128, 128, 128);
     font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
 }
 
 .right-box .buttons {
@@ -391,7 +392,7 @@ header #check-btn {
 /* projects */
 .projects-cont {
     padding: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 40px;
     /* background-color: red; */
 }
 
@@ -425,7 +426,7 @@ header #check-btn {
     justify-content: space-evenly;
     align-items: center;
     height: 400px;
-
+    margin-bottom: 30px;
 }
 
 .project1,
